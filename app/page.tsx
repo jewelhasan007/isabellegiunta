@@ -15,12 +15,12 @@ const navItems = ['About', 'Services', 'Portfolio', 'Contact'];
 const categories = ['All', 'Beauty', 'Behind the scenes', 'Editorial'];
 
 const portfolioItems: PortfolioItem[] = [
-  { title: 'The artist behind the brush', category: 'Beauty', image: 'https://images.pexels.com/photos/7290109/pexels-photo-7290109.jpeg?auto=compress&cs=tinysrgb&h=900', className: 'portfolio-tall' },
-  { title: 'A milestone worth celebrating', category: 'Behind the scenes', image: 'https://images.pexels.com/photos/19571010/pexels-photo-19571010.jpeg?auto=compress&cs=tinysrgb&h=700', className: 'portfolio-wide' },
-  { title: 'The craft in close-up', category: 'Editorial', image: 'https://images.pexels.com/photos/7773349/pexels-photo-7773349.jpeg?auto=compress&cs=tinysrgb&h=700', className: 'portfolio-square' },
-  { title: 'Soft light, real confidence', category: 'Beauty', image: 'https://images.pexels.com/photos/8990725/pexels-photo-8990725.jpeg?auto=compress&cs=tinysrgb&h=700', className: 'portfolio-square' },
-  { title: 'Every detail matters', category: 'Editorial', image: 'https://images.pexels.com/photos/3219424/pexels-photo-3219424.jpeg?auto=compress&cs=tinysrgb&h=900', className: 'portfolio-tall' },
-  { title: 'The work behind the work', category: 'Behind the scenes', image: 'https://images.pexels.com/photos/9743932/pexels-photo-9743932.jpeg?auto=compress&cs=tinysrgb&h=700', className: 'portfolio-wide' },
+  { title: 'The artist behind the brush', category: 'Beauty', image: '/images/portfolio/photo011.png', className: 'portfolio-tall' },
+  { title: 'A milestone worth celebrating', category: 'Behind the scenes', image: '/images/portfolio/photo012.png', className: 'portfolio-wide' },
+  { title: 'The craft in close-up', category: 'Editorial', image: '/images/portfolio/photo013.png', className: 'portfolio-square' },
+  { title: 'Soft light, real confidence', category: 'Beauty', image: '/images/portfolio/photo014.png', className: 'portfolio-square' },
+  { title: 'Every detail matters', category: 'Editorial', image: '/images/portfolio/photo015.png', className: 'portfolio-tall' },
+  { title: 'The work behind the work', category: 'Behind the scenes', image: '/images/portfolio/photo016.png', className: 'portfolio-wide' },
 ];
 
 const services = [
@@ -92,7 +92,7 @@ export default function Home() {
         </div>
         <div className="hero-art">
           <div className="hero-image-wrap">
-            <Image src="https://images.pexels.com/photos/19927156/pexels-photo-19927156.jpeg?auto=compress&cs=tinysrgb&h=1100" alt="Isabelle Giunta, Los Angeles makeup artist" fill priority sizes="(max-width: 900px) 90vw, 48vw" className="hero-image" />
+            <Image src="/images/hero/photo001.png" alt="Isabelle Giunta, Los Angeles makeup artist" fill priority sizes="(max-width: 900px) 90vw, 48vw" className="hero-image" />
           </div>
           <div className="hero-stamp">Makeup<br />Beauty<br />Glam</div>
           <p className="hero-caption">01 — Isabelle Giunta<br /><span>Artist / Los Angeles</span></p>
@@ -109,7 +109,7 @@ export default function Home() {
       </section>
 
       <section className="about section-shell" id="about">
-        <div className="about-image-wrap"><Image src="https://images.pexels.com/photos/3886313/pexels-photo-3886313.jpeg?auto=compress&cs=tinysrgb&h=1000" alt="Isabelle Giunta applying makeup with a brush" fill sizes="(max-width: 900px) 90vw, 43vw" className="cover-image" /></div>
+        <div className="about-image-wrap"><Image src="/images/meet/photo015.png" alt="Isabelle Giunta applying makeup with a brush" fill sizes="(max-width: 900px) 90vw, 43vw" className="cover-image" /></div>
         <div className="about-copy"><p className="section-kicker">Meet Isabelle</p><h2>An eye for<br /><em>the details.</em></h2><p>Based in Los Angeles, Isabelle is a makeup artist passionate about creating polished, beautiful and deeply personal looks. Her approach blends artistry with an easy, comfortable energy — so you feel like yourself, only a little more luminous.</p><p>From soft glam to full-camera moments, every appointment is built around individuality, intention and the small details that make a look yours.</p><a className="text-link" href="#contact">Get to know Isabelle <ArrowUpRight size={16} /></a></div>
       </section>
 
